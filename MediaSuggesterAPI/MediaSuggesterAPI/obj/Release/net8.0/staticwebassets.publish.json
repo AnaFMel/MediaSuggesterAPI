@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "94HUziWzOQ26uGOQXNW3UGPv08j5tYmY2FU6cGlDeHw=",
+  "Source": "MediaSuggesterAPI",
+  "BasePath": "_content/MediaSuggesterAPI",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

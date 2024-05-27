@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace MediaSuggesterAPI.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("/")]
     public class SuggestionController : Controller
     {
         private readonly SuggestionService _suggestionService;

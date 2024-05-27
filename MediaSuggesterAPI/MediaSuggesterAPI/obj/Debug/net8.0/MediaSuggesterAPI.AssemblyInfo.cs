@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MediaSuggesterAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a349902383ea42c893063f659d695f138c6dd258")]
 [assembly: System.Reflection.AssemblyProductAttribute("MediaSuggesterAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MediaSuggesterAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
