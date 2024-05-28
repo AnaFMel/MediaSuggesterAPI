@@ -1,4 +1,5 @@
-﻿using MediaSuggesterAPI.Options;
+﻿using MediaSuggesterAPI.Middlewares;
+using MediaSuggesterAPI.Options;
 using Microsoft.Extensions.Configuration;
 
 namespace MediaSuggesterAPI.IoC
@@ -10,6 +11,8 @@ namespace MediaSuggesterAPI.IoC
             services.Configure<ApiOptions>(configuration.GetSection(nameof(ApiOptions)));
 
             services.AddTransient<SuggestionService>();
+
+            services.AddTransient<CustomCorsMiddleware>();
 
             return services;
         }
