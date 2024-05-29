@@ -45,7 +45,8 @@ namespace MediaSuggesterAPI
                                     { "text", $"Recomende para mim {dto.TipoMidia} dos gêneros {dto.Generos}; separadamente. " +
                                     "Recomende 20 mídias para cada um dos gêneros. Não repita nenhuma mídia em diferentes gêneros" +
                                     "Considere apenas mídias com avaliação maior que 7 no IMDB. " +
-                                    "Forneça a informação de onde posso assistir as mídias recomendadas." +
+                                    "Forneça a informação de onde posso assistir as mídias recomendadas. " +
+                                    "Importante: não recomende a mesma mídia mais de uma vez, mesmo que em gêneros diferentes." +
                                     "Use o formato JSON exemplificado abaixo: " +
                                      exemplo }
                                 }
