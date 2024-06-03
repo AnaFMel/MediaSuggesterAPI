@@ -42,6 +42,7 @@ C:\Users\ana.melo\Desktop\Documentos\PI-FACULDADE\MediaSuggesterAPI\MediaSuggest
 C:\Users\ana.melo\Desktop\Documentos\PI-FACULDADE\MediaSuggesterAPI\MediaSuggesterAPI\MediaSuggesterAPI\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\ana.melo\Desktop\Documentos\PI-FACULDADE\MediaSuggesterAPI\MediaSuggesterAPI\MediaSuggesterAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\Users\ana.melo\Desktop\Documentos\PI-FACULDADE\MediaSuggesterAPI\MediaSuggesterAPI\MediaSuggesterAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\ana.melo\Desktop\Documentos\PI-FACULDADE\MediaSuggesterAPI\MediaSuggesterAPI\MediaSuggesterAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Annotations.dll
 C:\Users\ana.melo\Desktop\Documentos\PI-FACULDADE\MediaSuggesterAPI\MediaSuggesterAPI\MediaSuggesterAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\ana.melo\Desktop\Documentos\PI-FACULDADE\MediaSuggesterAPI\MediaSuggesterAPI\MediaSuggesterAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\ana.melo\Desktop\Documentos\PI-FACULDADE\MediaSuggesterAPI\MediaSuggesterAPI\MediaSuggesterAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll

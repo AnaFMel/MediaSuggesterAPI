@@ -6,7 +6,7 @@ using MediaSuggesterAPI.Dtos;
 using MediaSuggesterAPI.Options;
 using Microsoft.Extensions.Options;
 
-namespace MediaSuggesterAPI
+namespace MediaSuggesterAPI.Services
 {
     public class SuggestionService
     {
@@ -95,6 +95,68 @@ namespace MediaSuggesterAPI
             else
             {
                 return null;
+            }
+        }
+
+        public string ObterSinopse(string nomeMidia)
+        {
+
+            var requestData = new Dictionary<string, dynamic>{
+            { "contents", new List<Dictionary<string, dynamic>>
+                {
+                    new Dictionary<string, object>
+                    {
+                        { "parts", new List<Dictionary<string, string>>
+                            {
+                                new Dictionary<string, string>
+                                {
+                                    { "text", $"Obtenha para mim a sinopse da mídia {nomeMidia}. " +
+                                    $"Seja claro e breve, escrevenndo no máximo um parágrafo. " +
+                                    $"Baseie-se na sinopse da mídia no IMBD" +
+
+                                    "Use o formato JSON exemplificado abaixo: " +
+                                     "\"sinopse\":\"Fulano e seus amigos precisam derrotar o vilão antes que seja tarde de mais.\" }, " }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "generationConfig", new Dictionary<string, string>
+                {
+                    { "response_mime_type", "application/json" }
+                }
+            }
+        };
+
+            _httpClient.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
+
+            string requestBody = JsonConvert.SerializeObject(requestData);
+
+            var resposta = _httpClient.PostAsync("", new StringContent(requestBody, Encoding.UTF8, "application/json")).Result;
+
+            if (resposta.IsSuccessStatusCode)
+            {
+                var json = resposta.Content.ReadAsStringAsync().Result;
+
+                var response = JsonConvert.DeserializeObject<Response>(json);
+
+                if (response == null) return null;
+
+                var text = response
+                    .Candidates
+                    .FirstOrDefault(c => c.Content != null)
+                    .Content
+                    .Parts.FirstOrDefault(p => !string.IsNullOrEmpty(p.Text))
+                    .Text;
+
+                return JsonConvert.DeserializeObject<Sinopse>(text).Texto;
+
+            }
+            else
+            {
+                return string.Empty;
             }
         }
     }

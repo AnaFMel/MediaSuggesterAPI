@@ -1,7 +1,5 @@
 using MediaSuggesterAPI.IoC;
 using MediaSuggesterAPI.Middlewares;
-using Microsoft.OpenApi.Models;
-using static System.Net.Mime.MediaTypeNames;
 
 var builder = WebApplication.CreateBuilder(args);
 

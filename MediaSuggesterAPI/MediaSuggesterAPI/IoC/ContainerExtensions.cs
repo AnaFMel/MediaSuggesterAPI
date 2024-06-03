@@ -1,5 +1,6 @@
 ﻿using MediaSuggesterAPI.Middlewares;
 using MediaSuggesterAPI.Options;
+using MediaSuggesterAPI.Services;
 using Microsoft.Extensions.Configuration;
 
 namespace MediaSuggesterAPI.IoC
