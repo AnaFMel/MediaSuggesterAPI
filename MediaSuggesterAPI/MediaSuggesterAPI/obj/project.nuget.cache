@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TSgXSsy/14E=",
+  "dgSpecHash": "xPTKDdkoyLU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ana.melo\\Desktop\\Documentos\\PI-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPI\\MediaSuggesterAPI\\MediaSuggesterAPI.csproj",
+  "projectFilePath": "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPI\\MediaSuggesterAPI\\MediaSuggesterAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ana.melo\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\ana.melo\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",

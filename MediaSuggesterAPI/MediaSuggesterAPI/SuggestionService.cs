@@ -18,7 +18,7 @@ namespace MediaSuggesterAPI
             _httpClient = new HttpClient { BaseAddress = new Uri($"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={_apiOptions.Value.ApiKey}") };
         }
 
-        public Suggestions? ObterSugestoes(DtoGetSuggestion dto)
+        public ISuggestions? ObterSugestoes(DtoGetSuggestion dto)
         {
             var exemplo = string.Empty;
 
@@ -84,7 +84,7 @@ namespace MediaSuggesterAPI
                     .Parts.FirstOrDefault(p => !string.IsNullOrEmpty(p.Text))
                     .Text;
 
-                Suggestions resultado = null;
+                ISuggestions resultado = null;
 
                 if (dto.TipoMidia == nameof(TipoMidia.series)) resultado = JsonConvert.DeserializeObject<SuggestionsSeries>(text);
 
