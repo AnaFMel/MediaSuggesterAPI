@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ana.melo\\source\\repos\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Domain\\MediaSuggesterAPIv2.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Domain\\MediaSuggesterAPIv2.Domain.csproj",
       "projectName": "MediaSuggesterAPIv2.Domain",
-      "projectPath": "C:\\Users\\ana.melo\\source\\repos\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Domain\\MediaSuggesterAPIv2.Domain.csproj",
+      "projectPath": "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Domain\\MediaSuggesterAPIv2.Domain.csproj",
       "packagesPath": "C:\\Users\\ana.melo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ana.melo\\source\\repos\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Domain\\obj\\",
+      "outputPath": "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ana.melo\\AppData\\Roaming\\NuGet\\NuGet.Config",

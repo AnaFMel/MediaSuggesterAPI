@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MediaSuggesterAPIv2.Infra.CrossCutting")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd772088e8482281ed6be7a4526884b7f502cb58")]
 [assembly: System.Reflection.AssemblyProductAttribute("MediaSuggesterAPIv2.Infra.CrossCutting")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MediaSuggesterAPIv2.Infra.CrossCutting")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

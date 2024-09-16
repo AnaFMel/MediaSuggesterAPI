@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MediaSuggesterAPIv2.Infra.Data
-build_property.ProjectDir = C:\Users\ana.melo\source\repos\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Infra.Data\
+build_property.ProjectDir = C:\Users\ana.melo\Desktop\Documentos\FACULDADE\PI-FINAL-FACULDADE\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Infra.Data\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

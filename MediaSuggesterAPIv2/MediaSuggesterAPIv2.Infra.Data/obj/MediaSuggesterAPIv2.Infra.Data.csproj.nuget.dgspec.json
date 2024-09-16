@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ana.melo\\source\\repos\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Infra.Data\\MediaSuggesterAPIv2.Infra.Data.csproj": {}
+    "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Infra.Data\\MediaSuggesterAPIv2.Infra.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ana.melo\\source\\repos\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Infra.Data\\MediaSuggesterAPIv2.Infra.Data.csproj": {
+    "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Infra.Data\\MediaSuggesterAPIv2.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ana.melo\\source\\repos\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Infra.Data\\MediaSuggesterAPIv2.Infra.Data.csproj",
+        "projectUniqueName": "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Infra.Data\\MediaSuggesterAPIv2.Infra.Data.csproj",
         "projectName": "MediaSuggesterAPIv2.Infra.Data",
-        "projectPath": "C:\\Users\\ana.melo\\source\\repos\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Infra.Data\\MediaSuggesterAPIv2.Infra.Data.csproj",
+        "projectPath": "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Infra.Data\\MediaSuggesterAPIv2.Infra.Data.csproj",
         "packagesPath": "C:\\Users\\ana.melo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ana.melo\\source\\repos\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Infra.Data\\obj\\",
+        "outputPath": "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ana.melo\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ana.melo\\source\\repos\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Infra.CrossCutting\\MediaSuggesterAPIv2.Infra.CrossCutting.csproj": {}
+    "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Infra.CrossCutting\\MediaSuggesterAPIv2.Infra.CrossCutting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ana.melo\\source\\repos\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Infra.CrossCutting\\MediaSuggesterAPIv2.Infra.CrossCutting.csproj": {
+    "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Infra.CrossCutting\\MediaSuggesterAPIv2.Infra.CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ana.melo\\source\\repos\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Infra.CrossCutting\\MediaSuggesterAPIv2.Infra.CrossCutting.csproj",
+        "projectUniqueName": "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Infra.CrossCutting\\MediaSuggesterAPIv2.Infra.CrossCutting.csproj",
         "projectName": "MediaSuggesterAPIv2.Infra.CrossCutting",
-        "projectPath": "C:\\Users\\ana.melo\\source\\repos\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Infra.CrossCutting\\MediaSuggesterAPIv2.Infra.CrossCutting.csproj",
+        "projectPath": "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Infra.CrossCutting\\MediaSuggesterAPIv2.Infra.CrossCutting.csproj",
         "packagesPath": "C:\\Users\\ana.melo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ana.melo\\source\\repos\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Infra.CrossCutting\\obj\\",
+        "outputPath": "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Infra.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ana.melo\\AppData\\Roaming\\NuGet\\NuGet.Config",
