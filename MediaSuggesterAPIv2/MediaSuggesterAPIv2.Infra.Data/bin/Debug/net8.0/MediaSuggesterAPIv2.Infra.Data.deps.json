@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "MediaSuggesterAPIv2.Infra.Data/1.0.0": {
+        "runtime": {
+          "MediaSuggesterAPIv2.Infra.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MediaSuggesterAPIv2.Infra.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

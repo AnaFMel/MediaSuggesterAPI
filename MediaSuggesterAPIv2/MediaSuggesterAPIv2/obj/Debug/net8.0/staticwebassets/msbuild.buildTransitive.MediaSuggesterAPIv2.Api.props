@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\MediaSuggesterAPIv2.Api.props" />
+</Project>
