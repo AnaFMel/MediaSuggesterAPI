@@ -1,31 +1,29 @@
-﻿using MediaSuggesterAPIv2.Models;
+﻿using MediaSuggesterAPIv2.Api.Models;
+using MediaSuggesterAPIv2.Domain.Repositories;
+using MediaSuggesterAPIv2.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MediaSuggesterAPIv2.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("/")]
     public class SuggestionController : ControllerBase
     {
         private readonly ILogger<SuggestionController> _logger;
+        private readonly ISuggestionRepository _repository;
 
-        public SuggestionController(ILogger<SuggestionController> logger)
+        public SuggestionController(ILogger<SuggestionController> logger, ISuggestionRepository repository)
         {
             _logger = logger;
+            _repository = repository;
         }
 
-        [HttpGet(Name = "GetSuggestionsBasedOnCreatedProfile")]
-        public IEnumerable<Suggestion> Get()
+        [HttpPost(Name = "GetSuggestionsBasedOnReview")]
+        public void voidGeneratePersonalizedSuggestion(DtoMediaReview dto)
         {
             //Temporário enquanto implemento lógica da IA
-            return Enumerable.Empty<Suggestion>();
-        }
-
-        [HttpGet(Name = "GetSuggestionsBasedOnOneMedia")]
-        public IEnumerable<Suggestion> Get(int mediaId)
-        {
-            //Temporário enquanto implemento lógica da IA
-            return Enumerable.Empty<Suggestion>();
+            //return Enumerable.Empty<Suggestion>();
+            _repository.GetSuggestions("2k8E8NdnVtOwg7qAinmu2bl8Dch1");
         }
     }
 }

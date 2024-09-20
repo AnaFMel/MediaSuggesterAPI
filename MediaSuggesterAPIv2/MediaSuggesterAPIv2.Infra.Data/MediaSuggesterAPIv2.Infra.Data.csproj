@@ -7,7 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Repositories\" />
+    <PackageReference Include="Google.Cloud.Firestore" Version="3.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MediaSuggesterAPIv2.Domain\MediaSuggesterAPIv2.Domain.csproj" />
   </ItemGroup>
 
 </Project>

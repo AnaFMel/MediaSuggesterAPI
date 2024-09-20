@@ -1,6 +1,7 @@
 using Serilog;
 using DotNetEnv;
 using MediaSuggesterAPIv2.Api.Models;
+using MediaSuggesterAPIv2.Infra.CrossCutting.IoC;
 using Microsoft.Extensions.ML;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -24,6 +25,8 @@ builder.Services.AddCors();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddDependencies();
 
 var app = builder.Build();
 

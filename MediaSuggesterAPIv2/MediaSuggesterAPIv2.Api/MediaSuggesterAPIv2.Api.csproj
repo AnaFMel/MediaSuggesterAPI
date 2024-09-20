@@ -8,10 +8,16 @@
 
   <ItemGroup>
     <PackageReference Include="DotNetEnv" Version="3.1.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
     <PackageReference Include="Microsoft.Extensions.ML" Version="3.0.1" />
     <PackageReference Include="Microsoft.ML" Version="3.0.1" />
     <PackageReference Include="Serilog.AspNetCore" Version="8.0.2" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MediaSuggesterAPIv2.Domain\MediaSuggesterAPIv2.Domain.csproj" />
+    <ProjectReference Include="..\MediaSuggesterAPIv2.Infra.CrossCutting\MediaSuggesterAPIv2.Infra.CrossCutting.csproj" />
   </ItemGroup>
 
 </Project>
