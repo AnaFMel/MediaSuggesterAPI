@@ -1,6 +1,8 @@
-﻿using MediaSuggesterAPIv2.Api.Models;
+﻿using AutoMapper;
+using MediaSuggesterAPIv2.Api.Models;
+using MediaSuggesterAPIv2.Domain.Entities;
 using MediaSuggesterAPIv2.Domain.Repositories;
-using MediaSuggesterAPIv2.Models;
+using MediaSuggesterAPIv2.Domain.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MediaSuggesterAPIv2.Controllers
@@ -11,19 +13,23 @@ namespace MediaSuggesterAPIv2.Controllers
     {
         private readonly ILogger<SuggestionController> _logger;
         private readonly ISuggestionRepository _repository;
+        private readonly SuggestionService _service;
+        private readonly IMapper _mapper;
 
-        public SuggestionController(ILogger<SuggestionController> logger, ISuggestionRepository repository)
+        public SuggestionController(ILogger<SuggestionController> logger, ISuggestionRepository repository, SuggestionService service, IMapper mapper)
         {
             _logger = logger;
             _repository = repository;
+            _service = service;
+            _mapper = mapper;
         }
 
         [HttpPost(Name = "GetSuggestionsBasedOnReview")]
         public void voidGeneratePersonalizedSuggestion(DtoMediaReview dto)
         {
-            //Temporário enquanto implemento lógica da IA
-            //return Enumerable.Empty<Suggestion>();
-            _repository.GetSuggestions("2k8E8NdnVtOwg7qAinmu2bl8Dch1");
+            var review = _mapper.Map<Review>(dto);
+
+            _service.GetSuggestionsBasedOnReviews(review);
         }
     }
 }

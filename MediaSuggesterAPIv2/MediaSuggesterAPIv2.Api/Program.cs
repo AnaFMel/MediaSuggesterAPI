@@ -1,8 +1,6 @@
 using Serilog;
 using DotNetEnv;
-using MediaSuggesterAPIv2.Api.Models;
 using MediaSuggesterAPIv2.Infra.CrossCutting.IoC;
-using Microsoft.Extensions.ML;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,12 +10,12 @@ string url = Environment.GetEnvironmentVariable("TMDBApiOptions_Url")!;
 string key = Environment.GetEnvironmentVariable("TMDBApiOptions_Key")!;
 
 builder.Configuration.AddInMemoryCollection(new Dictionary<string, string>{
-    { "TMDBApiOptions:Url", url },
-    { "TMDBApiOptions:Key", key }
+    { "TMDB:Url", url },
+    { "TMDB:Key", key }
 });
 
-builder.Services.AddPredictionEnginePool<ModelInput, ModelOutput>()
-    .FromFile(modelName: "SuggesterModel", filePath: "suggestions_model.zip", watchForChanges: true);
+//builder.Services.AddPredictionEnginePool<ModelInput, ModelOutput>()
+//    .FromFile(modelName: "SuggesterModel", filePath: "suggestions_model.zip", watchForChanges: true);
 
 builder.Host.UseSerilog((hostingContext, loggerConfiguration) => loggerConfiguration.ReadFrom.Configuration(hostingContext.Configuration));
 
@@ -26,13 +24,15 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDependencies();
+builder.Services.AddAutoMapper(typeof(Program));
+
+builder.Services.AddDependencies(builder.Configuration);
 
 var app = builder.Build();
 
-var predictionHandler =
-        async (PredictionEnginePool<ModelInput, ModelOutput> predictionEnginePool, ModelInput input) =>
-            await Task.FromResult(predictionEnginePool.Predict(modelName: "SuggesterModel", input));
+//var predictionHandler =
+//        async (PredictionEnginePool<ModelInput, ModelOutput> predictionEnginePool, ModelInput input) =>
+//            await Task.FromResult(predictionEnginePool.Predict(modelName: "SuggesterModel", input));
 
 app.UseSwagger();
 app.UseSwaggerUI();

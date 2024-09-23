@@ -5,12 +5,13 @@ using MediaSuggesterAPIv2.Infra.Data.Helpers;
 using MediaSuggesterAPIv2.Infra.Data.Repositories;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.ML;
 
 namespace MediaSuggesterAPIv2.Infra.CrossCutting.IoC
 {
     public static class ContainerExtensions
     {
-        public static IServiceCollection AddDependencies(this IServiceCollection services)
+        public static IServiceCollection AddDependencies(this IServiceCollection services, IConfiguration configuration)
         {
             string credentialPath = "C:/Users/ana.melo/Downloads/projetopi5-firebase-adminsdk-aitcx-ecb7365a28.json";
             Environment.SetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS", credentialPath);
@@ -23,6 +24,7 @@ namespace MediaSuggesterAPIv2.Infra.CrossCutting.IoC
 
             services.AddTransient<SuggestionService>();
             services.AddTransient<TMDBClient>();
+            services.AddTransient<MLContext>();
 
             return services;
         }

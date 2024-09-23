@@ -18,30 +18,32 @@ namespace MediaSuggesterAPIv2.Infra.Data.Repositories
             throw new NotImplementedException();
         }
 
-        public async Task<SuggestionList> GetSuggestions(string reviewId)
+        public async Task<SuggestionList> GetSuggestions(string id)
         {
             try
             {
-                DocumentReference docRef = _firestore.Collection("suggestions").Document(reviewId);
+                DocumentReference docRef = _firestore.Collection("suggestions").Document(id);
 
                 DocumentSnapshot document = await docRef.GetSnapshotAsync();
 
                 if (!document.Exists) return new SuggestionList();
 
-                SuggestionList suggestion = document.ConvertTo<SuggestionList>();
+                //SuggestionList suggestion = document.ConvertTo<SuggestionList>();
 
-                Dictionary<string, object> teste = document.ToDictionary();
+                //Dictionary<string, object> teste = document.ToDictionary();
+
+                var filmes = document.GetValue<List<dynamic>>("filmes");
+                var series = document.GetValue<List<dynamic>>("series");
 
                 return new SuggestionList
                 {
                     Id = document.Id,
-                    //Filmes = filmes,
-                    //Series = series
+                    //Filmes = document.GetValue<Dictionary<string, dynamic>>("filmes"),
+                   // Series = series
                 };
             }
             catch (Exception ex)
             {
-
                 throw;
             }
         }
@@ -49,6 +51,14 @@ namespace MediaSuggesterAPIv2.Infra.Data.Repositories
         public void UpdateSuggestions(SuggestionList suggestionList)
         {
             throw new NotImplementedException();
+        }
+    }
+
+    public static class DocumentSnapshotExtensions
+    {
+        public static T GetValue<T>(this DocumentSnapshot document, string fieldName)
+        {
+            return document.TryGetValue(fieldName, out T value) ? value : default;
         }
     }
 }
