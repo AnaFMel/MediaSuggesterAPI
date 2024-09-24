@@ -16,7 +16,7 @@ namespace MediaSuggesterAPIv2.Infra.Data.Helpers
             _httpClient = new HttpClient { BaseAddress = new Uri(_configuration["TMDB:URL"]) };
         }
 
-        public IEnumerable<dynamic> GetRecommendationsBasedOnMedia(int mediaId, string type)
+        public IEnumerable<TMDBGenericMedia> GetRecommendationsBasedOnMedia(int mediaId, string type)
         {
             var response = _httpClient.GetAsync($"{type}/{mediaId}/recommendations?" +
                 $"language=pt-BR" +
@@ -26,14 +26,14 @@ namespace MediaSuggesterAPIv2.Infra.Data.Helpers
                 $"&vote_count.gte=1000" +
             $"&vote_average.gte=7.0").Result;
 
-            var resultado = Enumerable.Empty<GenericMedia>();
+            var resultado = Enumerable.Empty<TMDBGenericMedia>();
 
             if (response.IsSuccessStatusCode)
             {
                 var json = response.Content.ReadAsStringAsync().Result;
 
-                if (type.Equals(nameof(MediaType.tv))) resultado = JsonConvert.DeserializeObject<Result<TvShow>>(json).Itens;
-                if (type.Equals(nameof(MediaType.movie))) resultado = JsonConvert.DeserializeObject<Result<Movie>>(json).Itens;
+                if (type.Equals(nameof(MediaType.tv))) resultado = JsonConvert.DeserializeObject<TMDBResult<TMDBTvShow>>(json).Itens;
+                if (type.Equals(nameof(MediaType.movie))) resultado = JsonConvert.DeserializeObject<TMDBResult<TMDBMovie>>(json).Itens;
             }
 
             return resultado;

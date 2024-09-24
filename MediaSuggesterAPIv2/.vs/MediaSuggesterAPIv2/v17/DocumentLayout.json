@@ -3,32 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{88314685-B23B-4FAC-8B1B-530E165190D3}|MediaSuggesterAPIv2.Infra.Data\\MediaSuggesterAPIv2.Infra.Data.csproj|c:\\users\\ana.melo\\desktop\\documentos\\faculdade\\pi-final-faculdade\\mediasuggesterapi\\mediasuggesterapiv2\\mediasuggesterapiv2.infra.data\\repositories\\suggestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88314685-B23B-4FAC-8B1B-530E165190D3}|MediaSuggesterAPIv2.Infra.Data\\MediaSuggesterAPIv2.Infra.Data.csproj|solutionrelative:mediasuggesterapiv2.infra.data\\repositories\\suggestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{88314685-B23B-4FAC-8B1B-530E165190D3}|MediaSuggesterAPIv2.Infra.Data\\MediaSuggesterAPIv2.Infra.Data.csproj|c:\\users\\ana.melo\\desktop\\documentos\\faculdade\\pi-final-faculdade\\mediasuggesterapi\\mediasuggesterapiv2\\mediasuggesterapiv2.infra.data\\services\\suggestionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88314685-B23B-4FAC-8B1B-530E165190D3}|MediaSuggesterAPIv2.Infra.Data\\MediaSuggesterAPIv2.Infra.Data.csproj|solutionrelative:mediasuggesterapiv2.infra.data\\services\\suggestionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74957A2E-2374-4EE5-AFBC-D0F9A16CA83D}|MediaSuggesterAPIv2.Domain\\MediaSuggesterAPIv2.Domain.csproj|c:\\users\\ana.melo\\desktop\\documentos\\faculdade\\pi-final-faculdade\\mediasuggesterapi\\mediasuggesterapiv2\\mediasuggesterapiv2.domain\\entities\\suggestionlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74957A2E-2374-4EE5-AFBC-D0F9A16CA83D}|MediaSuggesterAPIv2.Domain\\MediaSuggesterAPIv2.Domain.csproj|solutionrelative:mediasuggesterapiv2.domain\\entities\\suggestionlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88314685-B23B-4FAC-8B1B-530E165190D3}|MediaSuggesterAPIv2.Infra.Data\\MediaSuggesterAPIv2.Infra.Data.csproj|c:\\users\\ana.melo\\desktop\\documentos\\faculdade\\pi-final-faculdade\\mediasuggesterapi\\mediasuggesterapiv2\\mediasuggesterapiv2.infra.data\\repositories\\suggestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88314685-B23B-4FAC-8B1B-530E165190D3}|MediaSuggesterAPIv2.Infra.Data\\MediaSuggesterAPIv2.Infra.Data.csproj|solutionrelative:mediasuggesterapiv2.infra.data\\repositories\\suggestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74957A2E-2374-4EE5-AFBC-D0F9A16CA83D}|MediaSuggesterAPIv2.Domain\\MediaSuggesterAPIv2.Domain.csproj|c:\\users\\ana.melo\\desktop\\documentos\\faculdade\\pi-final-faculdade\\mediasuggesterapi\\mediasuggesterapiv2\\mediasuggesterapiv2.domain\\entities\\suggestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74957A2E-2374-4EE5-AFBC-D0F9A16CA83D}|MediaSuggesterAPIv2.Domain\\MediaSuggesterAPIv2.Domain.csproj|solutionrelative:mediasuggesterapiv2.domain\\entities\\suggestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74957A2E-2374-4EE5-AFBC-D0F9A16CA83D}|MediaSuggesterAPIv2.Domain\\MediaSuggesterAPIv2.Domain.csproj|c:\\users\\ana.melo\\desktop\\documentos\\faculdade\\pi-final-faculdade\\mediasuggesterapi\\mediasuggesterapiv2\\mediasuggesterapiv2.domain\\entities\\mediasuggestions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74957A2E-2374-4EE5-AFBC-D0F9A16CA83D}|MediaSuggesterAPIv2.Domain\\MediaSuggesterAPIv2.Domain.csproj|solutionrelative:mediasuggesterapiv2.domain\\entities\\mediasuggestions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74957A2E-2374-4EE5-AFBC-D0F9A16CA83D}|MediaSuggesterAPIv2.Domain\\MediaSuggesterAPIv2.Domain.csproj|c:\\users\\ana.melo\\desktop\\documentos\\faculdade\\pi-final-faculdade\\mediasuggesterapi\\mediasuggesterapiv2\\mediasuggesterapiv2.domain\\entities\\mediabygenre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74957A2E-2374-4EE5-AFBC-D0F9A16CA83D}|MediaSuggesterAPIv2.Domain\\MediaSuggesterAPIv2.Domain.csproj|solutionrelative:mediasuggesterapiv2.domain\\entities\\mediabygenre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74957A2E-2374-4EE5-AFBC-D0F9A16CA83D}|MediaSuggesterAPIv2.Domain\\MediaSuggesterAPIv2.Domain.csproj|c:\\users\\ana.melo\\desktop\\documentos\\faculdade\\pi-final-faculdade\\mediasuggesterapi\\mediasuggesterapiv2\\mediasuggesterapiv2.domain\\entities\\personalizedsuggestions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74957A2E-2374-4EE5-AFBC-D0F9A16CA83D}|MediaSuggesterAPIv2.Domain\\MediaSuggesterAPIv2.Domain.csproj|solutionrelative:mediasuggesterapiv2.domain\\entities\\personalizedsuggestions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88314685-B23B-4FAC-8B1B-530E165190D3}|MediaSuggesterAPIv2.Infra.Data\\MediaSuggesterAPIv2.Infra.Data.csproj|c:\\users\\ana.melo\\desktop\\documentos\\faculdade\\pi-final-faculdade\\mediasuggesterapi\\mediasuggesterapiv2\\mediasuggesterapiv2.infra.data\\helpers\\tmdbclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88314685-B23B-4FAC-8B1B-530E165190D3}|MediaSuggesterAPIv2.Infra.Data\\MediaSuggesterAPIv2.Infra.Data.csproj|solutionrelative:mediasuggesterapiv2.infra.data\\helpers\\tmdbclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,101 +22,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SuggestionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Infra.Data\\Repositories\\SuggestionRepository.cs",
+              "RelativeDocumentMoniker": "MediaSuggesterAPIv2.Infra.Data\\Repositories\\SuggestionRepository.cs",
+              "ToolTip": "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Infra.Data\\Repositories\\SuggestionRepository.cs",
+              "RelativeToolTip": "MediaSuggesterAPIv2.Infra.Data\\Repositories\\SuggestionRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T18:39:42.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TMDBClient.cs",
+              "DocumentMoniker": "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Infra.Data\\Helpers\\TMDBClient.cs",
+              "RelativeDocumentMoniker": "MediaSuggesterAPIv2.Infra.Data\\Helpers\\TMDBClient.cs",
+              "ToolTip": "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Infra.Data\\Helpers\\TMDBClient.cs",
+              "RelativeToolTip": "MediaSuggesterAPIv2.Infra.Data\\Helpers\\TMDBClient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T18:37:47.966Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SuggestionList.cs",
-              "DocumentMoniker": "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Domain\\Entities\\SuggestionList.cs",
-              "RelativeDocumentMoniker": "MediaSuggesterAPIv2.Domain\\Entities\\SuggestionList.cs",
-              "ToolTip": "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Domain\\Entities\\SuggestionList.cs",
-              "RelativeToolTip": "MediaSuggesterAPIv2.Domain\\Entities\\SuggestionList.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T18:59:15.563Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Suggestion.cs",
-              "DocumentMoniker": "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Domain\\Entities\\Suggestion.cs",
-              "RelativeDocumentMoniker": "MediaSuggesterAPIv2.Domain\\Entities\\Suggestion.cs",
-              "ToolTip": "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Domain\\Entities\\Suggestion.cs",
-              "RelativeToolTip": "MediaSuggesterAPIv2.Domain\\Entities\\Suggestion.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T18:59:13.133Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MediaByGenre.cs",
-              "DocumentMoniker": "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Domain\\Entities\\MediaByGenre.cs",
-              "RelativeDocumentMoniker": "MediaSuggesterAPIv2.Domain\\Entities\\MediaByGenre.cs",
-              "ToolTip": "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Domain\\Entities\\MediaByGenre.cs",
-              "RelativeToolTip": "MediaSuggesterAPIv2.Domain\\Entities\\MediaByGenre.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T18:59:04.983Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PersonalizedSuggestions.cs",
-              "DocumentMoniker": "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Domain\\Entities\\PersonalizedSuggestions.cs",
-              "RelativeDocumentMoniker": "MediaSuggesterAPIv2.Domain\\Entities\\PersonalizedSuggestions.cs",
-              "ToolTip": "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Domain\\Entities\\PersonalizedSuggestions.cs",
-              "RelativeToolTip": "MediaSuggesterAPIv2.Domain\\Entities\\PersonalizedSuggestions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T18:56:59.209Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MediaSuggestions.cs",
-              "DocumentMoniker": "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Domain\\Entities\\MediaSuggestions.cs",
-              "RelativeDocumentMoniker": "MediaSuggesterAPIv2.Domain\\Entities\\MediaSuggestions.cs",
-              "ToolTip": "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Domain\\Entities\\MediaSuggestions.cs",
-              "RelativeToolTip": "MediaSuggesterAPIv2.Domain\\Entities\\MediaSuggestions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T18:56:41.535Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SuggestionRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Infra.Data\\Repositories\\SuggestionRepository.cs",
-              "RelativeDocumentMoniker": "MediaSuggesterAPIv2.Infra.Data\\Repositories\\SuggestionRepository.cs",
-              "ToolTip": "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Infra.Data\\Repositories\\SuggestionRepository.cs",
-              "RelativeToolTip": "MediaSuggesterAPIv2.Infra.Data\\Repositories\\SuggestionRepository.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCUAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T18:53:36.87Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "SuggestionService.cs",
               "DocumentMoniker": "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Infra.Data\\Services\\SuggestionService.cs",
               "RelativeDocumentMoniker": "MediaSuggesterAPIv2.Infra.Data\\Services\\SuggestionService.cs",
               "ToolTip": "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Infra.Data\\Services\\SuggestionService.cs",
               "RelativeToolTip": "MediaSuggesterAPIv2.Infra.Data\\Services\\SuggestionService.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAowEUAAAAQAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAowEgAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T18:53:25.533Z",
+              "WhenOpened": "2024-09-24T18:35:16.101Z",
               "EditorCaption": ""
             }
           ]

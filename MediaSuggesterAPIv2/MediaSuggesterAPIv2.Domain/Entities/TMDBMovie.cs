@@ -2,7 +2,7 @@
 
 namespace MediaSuggesterAPIv2.Domain.Entities
 {
-    public class Movie : GenericMedia
+    public class TMDBMovie : TMDBGenericMedia
     {
         [JsonProperty("title")]
         public string Titulo { get; set; }

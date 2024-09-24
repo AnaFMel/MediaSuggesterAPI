@@ -2,7 +2,7 @@
 
 namespace MediaSuggesterAPIv2.Domain.Entities
 {
-    public class OnnxOutput
+    public class OnnxModelOutput
     {
         [ColumnName("prediction")]
         public string Predito { get; set; }

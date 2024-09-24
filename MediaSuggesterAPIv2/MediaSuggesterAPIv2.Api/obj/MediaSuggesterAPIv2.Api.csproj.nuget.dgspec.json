@@ -65,18 +65,6 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
-            "Microsoft.Extensions.ML": {
-              "target": "Package",
-              "version": "[3.0.1, )"
-            },
-            "Microsoft.ML": {
-              "target": "Package",
-              "version": "[3.0.1, )"
-            },
-            "Serilog.AspNetCore": {
-              "target": "Package",
-              "version": "[8.0.2, )"
-            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"

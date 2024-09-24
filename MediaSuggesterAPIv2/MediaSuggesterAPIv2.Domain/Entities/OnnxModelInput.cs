@@ -2,7 +2,7 @@
 
 namespace MediaSuggesterAPIv2.Domain.Entities
 {
-    public class OnnxInput
+    public class OnnxModelInput
     {
         [ColumnName("review_text")]
         public string Text { get; set; }
