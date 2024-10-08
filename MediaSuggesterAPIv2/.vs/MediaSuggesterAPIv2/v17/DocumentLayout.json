@@ -44,6 +44,10 @@
           "SelectedChildIndex": 5,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "GenericSuggestionList.cs",
@@ -53,8 +57,7 @@
               "RelativeToolTip": "MediaSuggesterAPIv2.Domain\\Entities\\GenericSuggestionList.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T23:32:40.781Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-07T23:32:40.781Z"
             },
             {
               "$type": "Document",
@@ -66,8 +69,7 @@
               "RelativeToolTip": "MediaSuggesterAPIv2.Domain\\Entities\\GenericSuggestedMedia.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T23:32:37.932Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-07T23:32:37.932Z"
             },
             {
               "$type": "Document",
@@ -79,12 +81,7 @@
               "RelativeToolTip": "MediaSuggesterAPIv2.Domain\\Tags\\Predictions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T23:23:05.18Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+              "WhenOpened": "2024-10-07T23:23:05.18Z"
             },
             {
               "$type": "Document",
@@ -106,7 +103,7 @@
               "RelativeDocumentMoniker": "MediaSuggesterAPIv2.Infra.Data\\Services\\SuggestionService.cs",
               "ToolTip": "C:\\Users\\AnaC\\source\\repos\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Infra.Data\\Services\\SuggestionService.cs",
               "RelativeToolTip": "MediaSuggesterAPIv2.Infra.Data\\Services\\SuggestionService.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAAACUAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAYwB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-06T18:57:14.259Z",
               "EditorCaption": ""

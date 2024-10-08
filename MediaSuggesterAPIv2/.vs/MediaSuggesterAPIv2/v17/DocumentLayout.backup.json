@@ -7,6 +7,18 @@
       "RelativeMoniker": "D:0:0:{88314685-B23B-4FAC-8B1B-530E165190D3}|MediaSuggesterAPIv2.Infra.Data\\MediaSuggesterAPIv2.Infra.Data.csproj|solutionrelative:mediasuggesterapiv2.infra.data\\services\\suggestionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{74957A2E-2374-4EE5-AFBC-D0F9A16CA83D}|MediaSuggesterAPIv2.Domain\\MediaSuggesterAPIv2.Domain.csproj|c:\\users\\anac\\source\\repos\\mediasuggesterapi\\mediasuggesterapiv2\\mediasuggesterapiv2.domain\\entities\\genericsuggestionlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74957A2E-2374-4EE5-AFBC-D0F9A16CA83D}|MediaSuggesterAPIv2.Domain\\MediaSuggesterAPIv2.Domain.csproj|solutionrelative:mediasuggesterapiv2.domain\\entities\\genericsuggestionlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74957A2E-2374-4EE5-AFBC-D0F9A16CA83D}|MediaSuggesterAPIv2.Domain\\MediaSuggesterAPIv2.Domain.csproj|c:\\users\\anac\\source\\repos\\mediasuggesterapi\\mediasuggesterapiv2\\mediasuggesterapiv2.domain\\entities\\genericsuggestedmedia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74957A2E-2374-4EE5-AFBC-D0F9A16CA83D}|MediaSuggesterAPIv2.Domain\\MediaSuggesterAPIv2.Domain.csproj|solutionrelative:mediasuggesterapiv2.domain\\entities\\genericsuggestedmedia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74957A2E-2374-4EE5-AFBC-D0F9A16CA83D}|MediaSuggesterAPIv2.Domain\\MediaSuggesterAPIv2.Domain.csproj|c:\\users\\anac\\source\\repos\\mediasuggesterapi\\mediasuggesterapiv2\\mediasuggesterapiv2.domain\\tags\\predictions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74957A2E-2374-4EE5-AFBC-D0F9A16CA83D}|MediaSuggesterAPIv2.Domain\\MediaSuggesterAPIv2.Domain.csproj|solutionrelative:mediasuggesterapiv2.domain\\tags\\predictions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
@@ -29,7 +41,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,6 +50,42 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "GenericSuggestionList.cs",
+              "DocumentMoniker": "C:\\Users\\AnaC\\source\\repos\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Domain\\Entities\\GenericSuggestionList.cs",
+              "RelativeDocumentMoniker": "MediaSuggesterAPIv2.Domain\\Entities\\GenericSuggestionList.cs",
+              "ToolTip": "C:\\Users\\AnaC\\source\\repos\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Domain\\Entities\\GenericSuggestionList.cs",
+              "RelativeToolTip": "MediaSuggesterAPIv2.Domain\\Entities\\GenericSuggestionList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T23:32:40.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GenericSuggestedMedia.cs",
+              "DocumentMoniker": "C:\\Users\\AnaC\\source\\repos\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Domain\\Entities\\GenericSuggestedMedia.cs",
+              "RelativeDocumentMoniker": "MediaSuggesterAPIv2.Domain\\Entities\\GenericSuggestedMedia.cs",
+              "ToolTip": "C:\\Users\\AnaC\\source\\repos\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Domain\\Entities\\GenericSuggestedMedia.cs",
+              "RelativeToolTip": "MediaSuggesterAPIv2.Domain\\Entities\\GenericSuggestedMedia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T23:32:37.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Predictions.cs",
+              "DocumentMoniker": "C:\\Users\\AnaC\\source\\repos\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Domain\\Tags\\Predictions.cs",
+              "RelativeDocumentMoniker": "MediaSuggesterAPIv2.Domain\\Tags\\Predictions.cs",
+              "ToolTip": "C:\\Users\\AnaC\\source\\repos\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Domain\\Tags\\Predictions.cs",
+              "RelativeToolTip": "MediaSuggesterAPIv2.Domain\\Tags\\Predictions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T23:23:05.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -55,14 +103,14 @@
               "RelativeDocumentMoniker": "MediaSuggesterAPIv2.Infra.Data\\Services\\SuggestionService.cs",
               "ToolTip": "C:\\Users\\AnaC\\source\\repos\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Infra.Data\\Services\\SuggestionService.cs",
               "RelativeToolTip": "MediaSuggesterAPIv2.Infra.Data\\Services\\SuggestionService.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAADwvygAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAYwB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-06T18:57:14.259Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ContainerExtensions.cs",
               "DocumentMoniker": "C:\\Users\\AnaC\\source\\repos\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Infra.CrossCutting\\IoC\\ContainerExtensions.cs",
               "RelativeDocumentMoniker": "MediaSuggesterAPIv2.Infra.CrossCutting\\IoC\\ContainerExtensions.cs",
@@ -74,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": ".env",
               "DocumentMoniker": "C:\\Users\\AnaC\\source\\repos\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Api\\.env",
               "RelativeDocumentMoniker": "MediaSuggesterAPIv2.Api\\.env",
@@ -86,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\AnaC\\source\\repos\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Api\\Program.cs",
               "RelativeDocumentMoniker": "MediaSuggesterAPIv2.Api\\Program.cs",

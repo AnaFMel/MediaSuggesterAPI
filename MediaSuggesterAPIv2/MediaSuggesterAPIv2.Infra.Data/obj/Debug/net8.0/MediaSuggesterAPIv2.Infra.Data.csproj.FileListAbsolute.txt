@@ -25,6 +25,9 @@ C:\Users\ana.melo\Desktop\Documentos\FACULDADE\PI-FINAL-FACULDADE\MediaSuggester
 C:\Users\ana.melo\Desktop\Documentos\FACULDADE\PI-FINAL-FACULDADE\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Infra.Data\obj\Debug\net8.0\refint\MediaSuggesterAPIv2.Infra.Data.dll
 C:\Users\ana.melo\Desktop\Documentos\FACULDADE\PI-FINAL-FACULDADE\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Infra.Data\obj\Debug\net8.0\MediaSuggesterAPIv2.Infra.Data.pdb
 C:\Users\ana.melo\Desktop\Documentos\FACULDADE\PI-FINAL-FACULDADE\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Infra.Data\obj\Debug\net8.0\ref\MediaSuggesterAPIv2.Infra.Data.dll
+C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Infra.Data\bin\Debug\net8.0\MediaSuggesterAPIv2.Infra.Data.deps.json
+C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Infra.Data\bin\Debug\net8.0\MediaSuggesterAPIv2.Infra.Data.dll
+C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Infra.Data\bin\Debug\net8.0\MediaSuggesterAPIv2.Infra.Data.pdb
 C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Infra.Data\bin\Debug\net8.0\MediaSuggesterAPIv2.Domain.dll
 C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Infra.Data\bin\Debug\net8.0\MediaSuggesterAPIv2.Domain.pdb
 C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Infra.Data\obj\Debug\net8.0\MediaSuggesterAPIv2.Infra.Data.csproj.AssemblyReference.cache
@@ -37,7 +40,4 @@ C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterA
 C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Infra.Data\obj\Debug\net8.0\MediaSuggesterAPIv2.Infra.Data.dll
 C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Infra.Data\obj\Debug\net8.0\refint\MediaSuggesterAPIv2.Infra.Data.dll
 C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Infra.Data\obj\Debug\net8.0\MediaSuggesterAPIv2.Infra.Data.pdb
-C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Infra.Data\bin\Debug\net8.0\MediaSuggesterAPIv2.Infra.Data.deps.json
-C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Infra.Data\bin\Debug\net8.0\MediaSuggesterAPIv2.Infra.Data.dll
-C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Infra.Data\bin\Debug\net8.0\MediaSuggesterAPIv2.Infra.Data.pdb
 C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Infra.Data\obj\Debug\net8.0\ref\MediaSuggesterAPIv2.Infra.Data.dll

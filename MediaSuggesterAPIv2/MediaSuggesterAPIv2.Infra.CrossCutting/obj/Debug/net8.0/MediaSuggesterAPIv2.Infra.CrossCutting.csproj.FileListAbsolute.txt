@@ -27,6 +27,9 @@ C:\Users\ana.melo\Desktop\Documentos\FACULDADE\PI-FINAL-FACULDADE\MediaSuggester
 C:\Users\ana.melo\Desktop\Documentos\FACULDADE\PI-FINAL-FACULDADE\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Infra.CrossCutting\obj\Debug\net8.0\refint\MediaSuggesterAPIv2.Infra.CrossCutting.dll
 C:\Users\ana.melo\Desktop\Documentos\FACULDADE\PI-FINAL-FACULDADE\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Infra.CrossCutting\obj\Debug\net8.0\MediaSuggesterAPIv2.Infra.CrossCutting.pdb
 C:\Users\ana.melo\Desktop\Documentos\FACULDADE\PI-FINAL-FACULDADE\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Infra.CrossCutting\obj\Debug\net8.0\ref\MediaSuggesterAPIv2.Infra.CrossCutting.dll
+C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Infra.CrossCutting\bin\Debug\net8.0\MediaSuggesterAPIv2.Infra.CrossCutting.deps.json
+C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Infra.CrossCutting\bin\Debug\net8.0\MediaSuggesterAPIv2.Infra.CrossCutting.dll
+C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Infra.CrossCutting\bin\Debug\net8.0\MediaSuggesterAPIv2.Infra.CrossCutting.pdb
 C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Infra.CrossCutting\bin\Debug\net8.0\MediaSuggesterAPIv2.Domain.dll
 C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Infra.CrossCutting\bin\Debug\net8.0\MediaSuggesterAPIv2.Infra.Data.dll
 C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Infra.CrossCutting\bin\Debug\net8.0\MediaSuggesterAPIv2.Domain.pdb
@@ -41,7 +44,4 @@ C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterA
 C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Infra.CrossCutting\obj\Debug\net8.0\MediaSuggesterAPIv2.Infra.CrossCutting.dll
 C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Infra.CrossCutting\obj\Debug\net8.0\refint\MediaSuggesterAPIv2.Infra.CrossCutting.dll
 C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Infra.CrossCutting\obj\Debug\net8.0\MediaSuggesterAPIv2.Infra.CrossCutting.pdb
-C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Infra.CrossCutting\bin\Debug\net8.0\MediaSuggesterAPIv2.Infra.CrossCutting.deps.json
-C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Infra.CrossCutting\bin\Debug\net8.0\MediaSuggesterAPIv2.Infra.CrossCutting.dll
-C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Infra.CrossCutting\bin\Debug\net8.0\MediaSuggesterAPIv2.Infra.CrossCutting.pdb
 C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Infra.CrossCutting\obj\Debug\net8.0\ref\MediaSuggesterAPIv2.Infra.CrossCutting.dll
