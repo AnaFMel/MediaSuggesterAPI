@@ -1,0 +1,25 @@
+[
+  {
+    "ContainingType": "MediaSuggesterAPIv2.Controllers.SuggestionController",
+    "Method": "voidGeneratePersonalizedSuggestion",
+    "RelativePath": "",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "MediaSuggesterAPIv2.Api.Models.DtoMediaReview",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetSuggestionsBasedOnReview"
+  }
+]

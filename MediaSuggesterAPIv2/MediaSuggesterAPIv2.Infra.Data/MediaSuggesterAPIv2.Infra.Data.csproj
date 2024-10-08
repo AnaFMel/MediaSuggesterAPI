@@ -1,18 +1,22 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Google.Cloud.Firestore" Version="3.8.0" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Google.Cloud.Firestore" Version="3.8.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
+		<PackageReference Include="Microsoft.ML.OnnxRuntime" Version="1.19.2" />
+		<PackageReference Include="Microsoft.ML.OnnxTransformer" Version="3.0.1" />
+		<PackageReference Include="Microsoft.ML.Tokenizers" Version="0.21.1" /> 
+	</ItemGroup>
+	 
 
-  <ItemGroup>
-    <ProjectReference Include="..\MediaSuggesterAPIv2.Domain\MediaSuggesterAPIv2.Domain.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\MediaSuggesterAPIv2.Domain\MediaSuggesterAPIv2.Domain.csproj" />
+	</ItemGroup>
 
 </Project>

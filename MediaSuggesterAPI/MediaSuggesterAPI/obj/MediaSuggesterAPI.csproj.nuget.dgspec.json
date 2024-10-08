@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPI\\MediaSuggesterAPI\\MediaSuggesterAPI.csproj": {}
+    "C:\\Users\\AnaC\\Source\\Repos\\MediaSuggesterAPI\\MediaSuggesterAPI\\MediaSuggesterAPI\\MediaSuggesterAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPI\\MediaSuggesterAPI\\MediaSuggesterAPI.csproj": {
+    "C:\\Users\\AnaC\\Source\\Repos\\MediaSuggesterAPI\\MediaSuggesterAPI\\MediaSuggesterAPI\\MediaSuggesterAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPI\\MediaSuggesterAPI\\MediaSuggesterAPI.csproj",
+        "projectUniqueName": "C:\\Users\\AnaC\\Source\\Repos\\MediaSuggesterAPI\\MediaSuggesterAPI\\MediaSuggesterAPI\\MediaSuggesterAPI.csproj",
         "projectName": "MediaSuggesterAPI",
-        "projectPath": "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPI\\MediaSuggesterAPI\\MediaSuggesterAPI.csproj",
-        "packagesPath": "C:\\Users\\ana.melo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPI\\MediaSuggesterAPI\\obj\\",
+        "projectPath": "C:\\Users\\AnaC\\Source\\Repos\\MediaSuggesterAPI\\MediaSuggesterAPI\\MediaSuggesterAPI\\MediaSuggesterAPI.csproj",
+        "packagesPath": "C:\\Users\\AnaC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AnaC\\Source\\Repos\\MediaSuggesterAPI\\MediaSuggesterAPI\\MediaSuggesterAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ana.melo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\AnaC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -86,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -2,7 +2,7 @@
 {
     public enum Predictions
     {
-        negativo,
-        positivo
+        Negativo,
+        Positivo
     }
 }

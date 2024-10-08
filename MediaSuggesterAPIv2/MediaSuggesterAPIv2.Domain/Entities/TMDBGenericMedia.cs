@@ -2,7 +2,7 @@
 
 namespace MediaSuggesterAPIv2.Domain.Entities
 {
-    public abstract class GenericMedia
+    public abstract class TMDBGenericMedia
     {
         [JsonProperty("id")]
         public int Id { get; set; }

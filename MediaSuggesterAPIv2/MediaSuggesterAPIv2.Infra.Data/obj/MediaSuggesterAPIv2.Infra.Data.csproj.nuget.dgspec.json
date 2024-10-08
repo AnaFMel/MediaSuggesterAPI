@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Infra.Data\\MediaSuggesterAPIv2.Infra.Data.csproj": {}
+    "C:\\Users\\AnaC\\source\\repos\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Infra.Data\\MediaSuggesterAPIv2.Infra.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Domain\\MediaSuggesterAPIv2.Domain.csproj": {
+    "C:\\Users\\AnaC\\source\\repos\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Domain\\MediaSuggesterAPIv2.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Domain\\MediaSuggesterAPIv2.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\AnaC\\source\\repos\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Domain\\MediaSuggesterAPIv2.Domain.csproj",
         "projectName": "MediaSuggesterAPIv2.Domain",
-        "projectPath": "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Domain\\MediaSuggesterAPIv2.Domain.csproj",
-        "packagesPath": "C:\\Users\\ana.melo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Domain\\obj\\",
+        "projectPath": "C:\\Users\\AnaC\\source\\repos\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Domain\\MediaSuggesterAPIv2.Domain.csproj",
+        "packagesPath": "C:\\Users\\AnaC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AnaC\\source\\repos\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ana.melo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\AnaC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -83,21 +83,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Infra.Data\\MediaSuggesterAPIv2.Infra.Data.csproj": {
+    "C:\\Users\\AnaC\\source\\repos\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Infra.Data\\MediaSuggesterAPIv2.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Infra.Data\\MediaSuggesterAPIv2.Infra.Data.csproj",
+        "projectUniqueName": "C:\\Users\\AnaC\\source\\repos\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Infra.Data\\MediaSuggesterAPIv2.Infra.Data.csproj",
         "projectName": "MediaSuggesterAPIv2.Infra.Data",
-        "projectPath": "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Infra.Data\\MediaSuggesterAPIv2.Infra.Data.csproj",
-        "packagesPath": "C:\\Users\\ana.melo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Infra.Data\\obj\\",
+        "projectPath": "C:\\Users\\AnaC\\source\\repos\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Infra.Data\\MediaSuggesterAPIv2.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\AnaC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AnaC\\source\\repos\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ana.melo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\AnaC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -112,8 +112,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Domain\\MediaSuggesterAPIv2.Domain.csproj": {
-                "projectPath": "C:\\Users\\ana.melo\\Desktop\\Documentos\\FACULDADE\\PI-FINAL-FACULDADE\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Domain\\MediaSuggesterAPIv2.Domain.csproj"
+              "C:\\Users\\AnaC\\source\\repos\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Domain\\MediaSuggesterAPIv2.Domain.csproj": {
+                "projectPath": "C:\\Users\\AnaC\\source\\repos\\MediaSuggesterAPI\\MediaSuggesterAPIv2\\MediaSuggesterAPIv2.Domain\\MediaSuggesterAPIv2.Domain.csproj"
               }
             }
           }
@@ -140,6 +140,18 @@
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Microsoft.ML.OnnxRuntime": {
+              "target": "Package",
+              "version": "[1.19.2, )"
+            },
+            "Microsoft.ML.OnnxTransformer": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.ML.Tokenizers": {
+              "target": "Package",
+              "version": "[0.21.1, )"
             }
           },
           "imports": [
@@ -158,7 +170,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

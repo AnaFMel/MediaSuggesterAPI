@@ -11,14 +11,12 @@ namespace MediaSuggesterAPIv2.Controllers
     [Route("/")]
     public class SuggestionController : ControllerBase
     {
-        private readonly ILogger<SuggestionController> _logger;
         private readonly ISuggestionRepository _repository;
         private readonly SuggestionService _service;
         private readonly IMapper _mapper;
 
-        public SuggestionController(ILogger<SuggestionController> logger, ISuggestionRepository repository, SuggestionService service, IMapper mapper)
+        public SuggestionController(ISuggestionRepository repository, SuggestionService service, IMapper mapper)
         {
-            _logger = logger;
             _repository = repository;
             _service = service;
             _mapper = mapper;
@@ -30,6 +28,8 @@ namespace MediaSuggesterAPIv2.Controllers
             var review = _mapper.Map<Review>(dto);
 
             _service.GetSuggestionsBasedOnReviews(review);
+
+            //return Ok();
         }
     }
 }

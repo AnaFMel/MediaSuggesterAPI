@@ -1,4 +1,3 @@
-using Serilog;
 using DotNetEnv;
 using MediaSuggesterAPIv2.Infra.CrossCutting.IoC;
 
@@ -14,11 +13,6 @@ builder.Configuration.AddInMemoryCollection(new Dictionary<string, string>{
     { "TMDB:Key", key }
 });
 
-//builder.Services.AddPredictionEnginePool<ModelInput, ModelOutput>()
-//    .FromFile(modelName: "SuggesterModel", filePath: "suggestions_model.zip", watchForChanges: true);
-
-builder.Host.UseSerilog((hostingContext, loggerConfiguration) => loggerConfiguration.ReadFrom.Configuration(hostingContext.Configuration));
-
 builder.Services.AddCors();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -29,10 +23,6 @@ builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddDependencies(builder.Configuration);
 
 var app = builder.Build();
-
-//var predictionHandler =
-//        async (PredictionEnginePool<ModelInput, ModelOutput> predictionEnginePool, ModelInput input) =>
-//            await Task.FromResult(predictionEnginePool.Predict(modelName: "SuggesterModel", input));
 
 app.UseSwagger();
 app.UseSwaggerUI();

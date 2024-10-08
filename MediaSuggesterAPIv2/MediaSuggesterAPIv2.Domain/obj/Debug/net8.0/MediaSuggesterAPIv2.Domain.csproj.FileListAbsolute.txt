@@ -22,3 +22,16 @@ C:\Users\ana.melo\Desktop\Documentos\FACULDADE\PI-FINAL-FACULDADE\MediaSuggester
 C:\Users\ana.melo\Desktop\Documentos\FACULDADE\PI-FINAL-FACULDADE\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Domain\obj\Debug\net8.0\refint\MediaSuggesterAPIv2.Domain.dll
 C:\Users\ana.melo\Desktop\Documentos\FACULDADE\PI-FINAL-FACULDADE\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Domain\obj\Debug\net8.0\MediaSuggesterAPIv2.Domain.pdb
 C:\Users\ana.melo\Desktop\Documentos\FACULDADE\PI-FINAL-FACULDADE\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Domain\obj\Debug\net8.0\ref\MediaSuggesterAPIv2.Domain.dll
+C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Domain\bin\Debug\net8.0\MediaSuggesterAPIv2.Domain.deps.json
+C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Domain\bin\Debug\net8.0\MediaSuggesterAPIv2.Domain.dll
+C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Domain\bin\Debug\net8.0\MediaSuggesterAPIv2.Domain.pdb
+C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Domain\obj\Debug\net8.0\MediaSuggesterAPIv2.Domain.csproj.AssemblyReference.cache
+C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Domain\obj\Debug\net8.0\MediaSuggesterAPIv2.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Domain\obj\Debug\net8.0\MediaSuggesterAPIv2.Domain.AssemblyInfoInputs.cache
+C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Domain\obj\Debug\net8.0\MediaSuggesterAPIv2.Domain.AssemblyInfo.cs
+C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Domain\obj\Debug\net8.0\MediaSuggesterAPIv2.Domain.csproj.CoreCompileInputs.cache
+C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Domain\obj\Debug\net8.0\MediaSuggesterAPIv2.Domain.sourcelink.json
+C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Domain\obj\Debug\net8.0\MediaSuggesterAPIv2.Domain.dll
+C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Domain\obj\Debug\net8.0\refint\MediaSuggesterAPIv2.Domain.dll
+C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Domain\obj\Debug\net8.0\MediaSuggesterAPIv2.Domain.pdb
+C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Domain\obj\Debug\net8.0\ref\MediaSuggesterAPIv2.Domain.dll
