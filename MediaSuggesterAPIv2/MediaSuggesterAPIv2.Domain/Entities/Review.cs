@@ -2,9 +2,9 @@
 {
     public class Review
     {
-        public string UserId { get; set; }
-        public int MediaId { get; set; }
-        public string MediaType { get; set; }
-        public string ReviewText { get; set; }
+        public string UserId { get; private set; }
+        public int MediaId { get; private set; }
+        public string MediaType { get; private set; }
+        public string ReviewText { get; private set; }
     }
 }

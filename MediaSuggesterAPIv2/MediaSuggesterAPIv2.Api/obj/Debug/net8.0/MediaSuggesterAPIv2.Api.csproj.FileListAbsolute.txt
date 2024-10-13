@@ -161,6 +161,7 @@ C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterA
 C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Api\bin\Debug\net8.0\tokenizer_files\special_tokens_map.json
 C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Api\bin\Debug\net8.0\tokenizer_files\tokenizer_config.json
 C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Api\bin\Debug\net8.0\MediaSuggesterAPIv2.Api.exe
+C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Api\bin\Debug\net8.0\suggester.onnx
 C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Api\bin\Debug\net8.0\MediaSuggesterAPIv2.Api.deps.json
 C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Api\bin\Debug\net8.0\MediaSuggesterAPIv2.Api.runtimeconfig.json
 C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Api\bin\Debug\net8.0\MediaSuggesterAPIv2.Api.dll
@@ -262,3 +263,4 @@ C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterA
 C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Api\obj\Debug\net8.0\MediaSuggesterAPIv2.Api.pdb
 C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Api\obj\Debug\net8.0\MediaSuggesterAPIv2.Api.genruntimeconfig.cache
 C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Api\obj\Debug\net8.0\ref\MediaSuggesterAPIv2.Api.dll
+C:\Users\AnaC\source\repos\MediaSuggesterAPI\MediaSuggesterAPIv2\MediaSuggesterAPIv2.Api\bin\Debug\net8.0\firebase-auth.json

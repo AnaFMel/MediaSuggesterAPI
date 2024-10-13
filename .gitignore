@@ -1,2 +1,3 @@
 .env
-.onnx
+suggester.onnx
+firebase-auth.json

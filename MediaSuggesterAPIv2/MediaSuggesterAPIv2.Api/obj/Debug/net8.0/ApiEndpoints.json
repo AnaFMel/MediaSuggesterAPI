@@ -1,8 +1,8 @@
 [
   {
     "ContainingType": "MediaSuggesterAPIv2.Controllers.SuggestionController",
-    "Method": "voidGeneratePersonalizedSuggestion",
-    "RelativePath": "",
+    "Method": "GeneratePersonalizedSuggestion",
+    "RelativePath": "api/Suggestion/GeneratePersonalizedSuggestion",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -13,13 +13,28 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MediaSuggesterAPIv2.Controllers.SuggestionController",
+    "Method": "SavePersonalizedSuggestionForFavorite",
+    "RelativePath": "api/Suggestion/SavePersonalizedSuggestionForFavorite",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "MediaSuggesterAPIv2.Api.Models.DtoFavoriteMedia",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": [
       {
         "Type": "System.Void",
         "MediaTypes": [],
         "StatusCode": 200
       }
-    ],
-    "EndpointName": "GetSuggestionsBasedOnReview"
+    ]
   }
 ]

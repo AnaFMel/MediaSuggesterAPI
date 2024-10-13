@@ -13,7 +13,7 @@ namespace MediaSuggesterAPIv2.Infra.CrossCutting.IoC
     {
         public static IServiceCollection AddDependencies(this IServiceCollection services, IConfiguration configuration)
         {
-            string credentialPath = "C:/Users/AnaC/Downloads/projetopi5-firebase-adminsdk-aitcx-ecb7365a28.json";
+            string credentialPath = "firebase-auth.json";
             Environment.SetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS", credentialPath);
 
             FirestoreDb db = FirestoreDb.Create("projetopi5");

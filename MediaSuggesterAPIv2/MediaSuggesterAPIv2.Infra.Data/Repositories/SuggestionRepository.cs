@@ -15,8 +15,8 @@ namespace MediaSuggesterAPIv2.Infra.Data.Repositories
 
         public async void AddPersonalizedSuggestions(string userId, string mediaType, int likedMediaId, int[] suggestionList)
         {
-            CollectionReference psSuggestionsRef = _firestore.Collection("personalized_suggestions");
-            await psSuggestionsRef.Document().SetAsync(new Dictionary<string, object>(){
+            CollectionReference colRef = _firestore.Collection("personalized_suggestions");
+            await colRef.Document().SetAsync(new Dictionary<string, object>(){
                     { "user_id", userId },
                     { "liked_media_id", likedMediaId },
                     { "suggestions", suggestionList },
@@ -35,9 +35,11 @@ namespace MediaSuggesterAPIv2.Infra.Data.Repositories
             return document.ConvertTo<GenericSuggestionList>();
         }
 
-        public void UpdateSuggestions(GenericSuggestionList suggestionList)
+        public async void UpdateSuggestions(string userId, GenericSuggestionList suggestionList)
         {
-            throw new NotImplementedException();
+            DocumentReference docRef = _firestore.Collection("suggestions").Document(userId);
+
+            await docRef.SetAsync(suggestionList, SetOptions.MergeAll);
         }
     }
 }

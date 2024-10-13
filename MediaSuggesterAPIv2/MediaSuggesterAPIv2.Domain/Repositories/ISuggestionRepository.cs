@@ -8,6 +8,6 @@ namespace MediaSuggesterAPIv2.Domain.Repositories
     {
         GenericSuggestionList GetSuggestions(string id);
         void AddPersonalizedSuggestions(string userId, string mediaType, int likedMediaId, int[] suggestionList);
-        void UpdateSuggestions(GenericSuggestionList suggestionList);
+        void UpdateSuggestions(string userId, GenericSuggestionList suggestionList);
     }
 }

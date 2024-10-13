@@ -9,7 +9,7 @@ namespace MediaSuggesterAPIv2.Api.Profiles
         public DomainProfile()
         {
             CreateMap<Review, DtoMediaReview>().ReverseMap();
-
+            CreateMap<Favorite, DtoFavoriteMedia>().ReverseMap();
         }
     }
 }

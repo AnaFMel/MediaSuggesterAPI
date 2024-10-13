@@ -27,29 +27,36 @@ namespace MediaSuggesterAPIv2.Domain.Services
             _client = client;
         }
 
+        public void GetAndSavePersonalizedSuggestionForFavorite(Favorite favorite)
+        {
+            var recommendations = _client.GetRecommendationsBasedOnMedia(favorite.MediaId, favorite.MediaType);
+
+            _suggestionRepository.AddPersonalizedSuggestions(favorite.UserId, favorite.MediaType, favorite.MediaId, recommendations.Select(r => r.Id).ToArray());
+        }
+
         public void GetSuggestionsBasedOnReviews(Review review)
         {
             LoadTokenizer("./tokenizer_files/vocab.txt", "./tokenizer_files/special_tokens_map.json");
 
             var (inputIds, attentionMask) = TokenizeReview(review.ReviewText, 32);
 
-            // Passar para o modelo ONNX
+            //passando a review para o modelo ONNX
             var prediction = GetModelPrediction(inputIds, attentionMask);
             string sentiment = InterpretPrediction(prediction);
             Console.WriteLine($"Review text: {review.ReviewText}");
             Console.WriteLine($"Sentiment: {sentiment}");
 
-            //pegando mídias parecidas com a avaliada
+            //obtendo as mídias parecidas com a avaliada
             var tmdbRecommendations = _client.GetRecommendationsBasedOnMedia(review.MediaId, review.MediaType);
 
             if (sentiment.Equals(nameof(Predictions.Positivo)))
             {
-                //se for predito que é um comentário positivo, criamos sugestões personalizadas, que vão ser exibidas no app como um novo carrosel
+                //se for predito que é um comentário positivo, criamos sugestões personalizadas, que vão ser exibidas na home
                 _suggestionRepository.AddPersonalizedSuggestions(review.UserId, review.MediaType, review.MediaId, tmdbRecommendations.Select(r => r.Id).ToArray());
             }
             else
             {
-                //se for predito que o comentário é negativo, pegamos as recomendações originais e tiramos os filmes parecidos, substituindo por outros
+                //se for predito que o comentário é negativo, pegamos as recomendações originais e tiramos as mídias parecidos, substituindo por outros
 
                 var sugestoes_atuais = _suggestionRepository.GetSuggestions(review.UserId);
 
@@ -59,22 +66,26 @@ namespace MediaSuggesterAPIv2.Domain.Services
 
                 if (review.MediaType.Equals(nameof(MediaType.movie))) listaDeMidias = sugestoes_atuais.Filmes;
 
+
+                var midiasFinaisFiltradas = new List<Dictionary<string, List<GenericSuggestedMedia>>>();
                 foreach (var midiasPorGenero in listaDeMidias)
                 {
-                    foreach (var midias in midiasPorGenero.Values)
+                    var midiasDoGeneroFiltradas = new Dictionary<string, List<GenericSuggestedMedia>>();
+
+                    foreach (var genero in midiasPorGenero)
                     {
-                        foreach (var midia in midias)
-                        {
-                            if (tmdbRecommendations.Select(r => r.Id).ToList().Contains(Convert.ToInt32(midia.Id))) midias.Remove(midia);
-                        }
+                        var filtradas = genero.Value.Where(m => !tmdbRecommendations.Select(r => r.Id).Contains(Convert.ToInt32(m.Id))).ToList();
+                        midiasDoGeneroFiltradas.Add(genero.Key, filtradas);
                     }
+
+                    midiasFinaisFiltradas.Add(midiasDoGeneroFiltradas);
                 }
 
-                if (review.MediaType.Equals(nameof(MediaType.tv))) sugestoes_atuais.Series = listaDeMidias;
+                if (review.MediaType.Equals(nameof(MediaType.tv))) sugestoes_atuais.Series = midiasFinaisFiltradas;
 
-                if (review.MediaType.Equals(nameof(MediaType.movie))) sugestoes_atuais.Filmes = listaDeMidias;
+                if (review.MediaType.Equals(nameof(MediaType.movie))) sugestoes_atuais.Filmes = midiasFinaisFiltradas;
 
-                _suggestionRepository.UpdateSuggestions(sugestoes_atuais);
+                _suggestionRepository.UpdateSuggestions(review.UserId, sugestoes_atuais);
             }
         }
 
@@ -123,7 +134,7 @@ namespace MediaSuggesterAPIv2.Domain.Services
 
         static float[] GetModelPrediction(long[] inputIds, long[] attentionMask)
         {
-            using var session = new InferenceSession("suggester.onnx");
+            using var session = new InferenceSession(Path.Combine(AppContext.BaseDirectory, "suggester.onnx"));
 
             var inputIdsTensor = new DenseTensor<long>(inputIds, new[] { 1, inputIds.Length });
             var attentionMaskTensor = new DenseTensor<long>(attentionMask, new[] { 1, attentionMask.Length });

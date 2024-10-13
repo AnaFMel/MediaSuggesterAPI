@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace MediaSuggesterAPIv2.Controllers
 {
     [ApiController]
-    [Route("/")]
+    [Route("api/[controller]")]
     public class SuggestionController : ControllerBase
     {
         private readonly ISuggestionRepository _repository;
@@ -22,14 +22,18 @@ namespace MediaSuggesterAPIv2.Controllers
             _mapper = mapper;
         }
 
-        [HttpPost(Name = "GetSuggestionsBasedOnReview")]
-        public void voidGeneratePersonalizedSuggestion(DtoMediaReview dto)
+        [HttpPost("GeneratePersonalizedSuggestion")]
+        public void GeneratePersonalizedSuggestion(DtoMediaReview dto)
         {
             var review = _mapper.Map<Review>(dto);
-
             _service.GetSuggestionsBasedOnReviews(review);
+        }
 
-            //return Ok();
+        [HttpPost("SavePersonalizedSuggestionForFavorite")]
+        public void SavePersonalizedSuggestionForFavorite(DtoFavoriteMedia dto)
+        {
+            var favorite = _mapper.Map<Favorite>(dto);
+            _service.GetAndSavePersonalizedSuggestionForFavorite(favorite);
         }
     }
 }
